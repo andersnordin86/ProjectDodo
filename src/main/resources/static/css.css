@@ -23,14 +23,17 @@ body {
 #top-logo {
     opacity: 0.6;
     float: left;
+    width: 10%;
+    padding: 0;
 
 }
 
 #menu {
+
     float: left;
     position: absolute;
     top: 3%;
-    left: 20%;
+    left: 30%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 
@@ -41,6 +44,8 @@ body {
     display: inline-block;
     margin: 10px;
     padding: 10px;
+
+
 
 
 }
@@ -57,8 +62,28 @@ body {
 #Stories {
     width: 40%;
     height: 60%;
-    border: 5px solid black;
+
     position: fixed;
     left: 30%;
+    top: 15%;
+    margin: 50px auto;
+    opacity: 0.9;
+    border-left: 15px solid #3EC8AC;
+    border-right: 15px solid #4E90A4;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-position: 0 0, 0 100%;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 20px;
+    -moz-background-size: 100% 20px;
+    background-size: 100% 20px;
+    background-image: -webkit-linear-gradient(left, #3EC8AC 0%, #4E90A4 100%), -webkit-linear-gradient(left, #3EC8AC 0%, #4E90A4 100%);
+    background-image: -moz-linear-gradient(left, #3EC8AC 0%, #4E90A4 100%), -moz-linear-gradient(left, #3EC8AC 0%, #4E90A4 100%);
+    background-image: -o-linear-gradient(left, #3EC8AC 0%, #4E90A4 100%), -o-linear-gradient(left, #3EC8AC 0%, #4E90A4 100%);
+    background-image: linear-gradient(to right, #3EC8AC 0%, #4E90A4 100%), linear-gradient(to right, #3EC8AC 0%, #4E90A4 100%);
+
 
 }
