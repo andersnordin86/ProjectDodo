@@ -11,8 +11,9 @@ public class Members {
     private Date created;
     private Date lastlogin;
     private String email;
+    private Boolean admin;
 
-    public Members(int id, String username, String firstname, String lastname, String password, Date created, Date lastlogin, String email) {
+    public Members(int id, String username, String firstname, String lastname, String password, Date created, Date lastlogin, String email, Boolean admin) {
         this.id = id;
         this.username = username;
         this.firstname = firstname;
@@ -21,6 +22,7 @@ public class Members {
         this.created = created;
         this.lastlogin = lastlogin;
         this.email = email;
+        this.admin = admin;
     }
 
     public int getId() {
@@ -85,5 +87,13 @@ public class Members {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public Boolean getAdmin() {
+        return admin;
+    }
+
+    public void setAdmin(Boolean admin) {
+        this.admin = admin;
     }
 }
